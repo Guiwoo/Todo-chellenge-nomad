@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gmentom</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="top_bar">
+      <div class="miniClock"></div>
+      <div class="name">Weclome</div>
+      <div class="weather">
+        <div class="temperture">
+          <div class="celsius"></div>
+          <div>&#8451</div>
+        </div>
+        <div class="place"></div>
+      </div>
+    </header>
+    <form class="ask_name">
+      <input class="nameInput" type="text" placeholder="What is your name ?" />
+    </form>
+    <div class="clock">
+      <h1>00:00</h1>
+    </div>
+    <h4 class="hello"></h4>
+    <form class="todoList">
+      <input
+        class="todoList_input"
+        type="text"
+        placeholder="Wriet on your task ?"
+      />
+    </form>
+    <div class="todo_List">
+      <span>Your To-Do List</span>
+      <div class="list_style">
+        <ul class="js-toDo"></ul>
+      </div>
+    </div>
+    <script src="todo.js"></script>
+    <script src="name.js"></script>
+    <script src="clock.js"></script>
+    <script src="weather.js"></script>
+    <script src="background.js"></script>
+  </body>
+</html>
