@@ -17,7 +17,7 @@ function getWeather(lat, lon) {
       console.log(weather);
       const place = json.name;
       console.log(place);
-      celsius.innerText = `${temperture}`;
+      celsius.innerText = `${temperture}°C`;
       city.innerText = `${place}`;
     });
 }

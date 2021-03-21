@@ -27,12 +27,10 @@ body {
   display: flex;
   justify-content: center;
 }
-.clock {
-  text-align: center;
-  font-size: 40px;
-}
-.clock h1 {
-  margin: 20px 0px;
+
+.temperture {
+  display: flex;
+  flex-direction: row;
 }
 
 .hello {
@@ -48,6 +46,11 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 5px;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
 }
 
 .todo_List {
